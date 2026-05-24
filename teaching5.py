@@ -1,9 +1,10 @@
-def greet(name): # parameter
-    print(f"Hello {name}")
+for i in range(3):
+    for j in range(2):
+        print("*")
 
-greet("Anna") # argument
-
-def add(a, b):
-    return a+b
-
-print(add(2, 3))
+# 0 0
+# 0 1
+# 1 0
+# 1 1
+# 2 0
+# 2 1
